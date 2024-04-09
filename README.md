@@ -34,12 +34,12 @@ Notice the words highlighted in brown and black. They are also deemed important 
 - [ ] Implement Relative Positional Encoding
 
 ## References
-- @inproceedings{Ambartsoumian2017,
-  author    = {Ambartsoumian, Artaches and Popowich, Fred},
-  title     = {Self-Attention: A Better Building Block for Sentiment Analysis Neural Network Classifiers},
-  booktitle = {Proceedings of the 9th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},
-  month     = {November},
-  year      = {2018},
-  address   = {Brussels, Belgium},
-  publisher = {Association for Computational Linguistics},
+- @inproceedings{Ambartsoumian2017, <br />
+  author    = {Ambartsoumian, Artaches and Popowich, Fred}, <br />
+  title     = {Self-Attention: A Better Building Block for Sentiment Analysis Neural Network Classifiers},<br />
+  booktitle = {Proceedings of the 9th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},<br />
+  month     = {November},<br />
+  year      = {2018},<br />
+  address   = {Brussels, Belgium},<br />
+  publisher = {Association for Computational Linguistics},<br />
 }
