@@ -1,5 +1,8 @@
 # self-attention-network-sentiment-classification
-I try to implement Self-Attention network for sentiment classification. This is equivalent to a Single Head of a Multi Head Transformer Encoder. 
+I try to implement Self-Attention network for sentiment classification. This is equivalent to a Single Head of a Multi Head Transformer Encoder. This is the implementation of the paper in the reference.
+
+## Architecture
+![alt-text](https://github.com/MonojitSarkar/self-attention-network-sentiment-classification/blob/main/images/ssan_model.png)
 
 ## Visualization for a Negative Sentiment
 **Input text:** 'Horrible acting with the worst special f/x I\'ve ever bore witness too. It\'s bad enough I wasted $3 to watch this crummy pile of crap, but it\'s the hour and a half time I lost that I could\'ve been doing anything else like getting a root canal or volunteering for jury duty. Getting drunk couldn\'t even help this video.<br /><br />To put it bluntly, I sincerely believe I actually lost a few IQ points during the course of watching this idiotic piece of mind-numbing "work"! Perhaps I should have followed my own advice this time. Never expect a decent film if it\'s written, directed and produced by the same person, and never EVER expect anything of value from Jeff Fahey.'
@@ -28,20 +31,15 @@ Notice the words highlighted in brown and black. They are also deemed important 
 ## To-Do
 - [ ] Implement Word Embedding and see for any improvement
 - [ ] Better word preprocessing.
+- [ ] Implement Relative Positional Encoding
 
 ## References
-- @article{DBLP:journals/corr/abs-1812-07860,
-  author       = {Artaches Ambartsoumian and
-                  Fred Popowich},
-  title        = {Self-Attention: {A} Better Building Block for Sentiment Analysis Neural
-                  Network Classifiers},
-  journal      = {CoRR},
-  volume       = {abs/1812.07860},
-  year         = {2018},
-  url          = {http://arxiv.org/abs/1812.07860},
-  eprinttype    = {arXiv},
-  eprint       = {1812.07860},
-  timestamp    = {Wed, 02 Jan 2019 14:40:18 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-1812-07860.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+- @inproceedings{Ambartsoumian2017,
+  author    = {Ambartsoumian, Artaches and Popowich, Fred},
+  title     = {Self-Attention: A Better Building Block for Sentiment Analysis Neural Network Classifiers},
+  booktitle = {Proceedings of the 9th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},
+  month     = {November},
+  year      = {2018},
+  address   = {Brussels, Belgium},
+  publisher = {Association for Computational Linguistics},
 }
