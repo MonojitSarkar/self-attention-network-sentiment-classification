@@ -4,6 +4,14 @@ I try to implement Self-Attention network for sentiment classification. This is 
 ## Architecture
 ![alt-text](https://github.com/MonojitSarkar/self-attention-network-sentiment-classification/blob/main/images/ssan_model.png)
 
+Accuracies for different embedding trained for 20 epochs
+
+| Embedding Type  | Train Accurcy | Test Accuracy |
+| ------------- | ------------- | ------------- |
+| Random Word Embedding | 81.00%  | 82.44% |
+| Glove 6B 50 dim  | 84.77%  | 82.35% |
+| Glove 6B 100 dim  | 85.31%  | 84.27% |
+
 ## Visualization for a Negative Sentiment
 **Input text:** 'Horrible acting with the worst special f/x I\'ve ever bore witness too. It\'s bad enough I wasted $3 to watch this crummy pile of crap, but it\'s the hour and a half time I lost that I could\'ve been doing anything else like getting a root canal or volunteering for jury duty. Getting drunk couldn\'t even help this video.<br /><br />To put it bluntly, I sincerely believe I actually lost a few IQ points during the course of watching this idiotic piece of mind-numbing "work"! Perhaps I should have followed my own advice this time. Never expect a decent film if it\'s written, directed and produced by the same person, and never EVER expect anything of value from Jeff Fahey.'
 
