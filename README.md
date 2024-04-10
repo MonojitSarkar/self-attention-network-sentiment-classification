@@ -29,7 +29,8 @@ Look at the word highlighted in red. Those are the words which the self-attentio
 Notice the words highlighted in brown and black. They are also deemed important but less than those words in red. 
 
 ## To-Do
-- [ ] Implement Word Embedding and see for any improvement
+- [x] Implement Glove and see for any improvement. Slightly better accuracy observed.
+- [ ] Implement Glove embeddings with different dimensions.
 - [ ] Better word preprocessing.
 - [ ] Implement Relative Positional Encoding
 
