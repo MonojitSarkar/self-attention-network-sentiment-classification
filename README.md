@@ -8,6 +8,7 @@ Accuracies for different embedding trained for 20 epochs. Dropout of 0.7
 
 | Architecture Type  | Train Accurcy | Test Accuracy |
 | ------------- | ------------- | ------------- |
+| LSTM Random Word Embedding (no dropout) | 94.82% | 85.43% |
 | LSTM Random Word Embedding | 50.90% | 50.30% |
 | BiLSTM Random Word Embedding | 53.00% | 50.30% |
 | BiLSTM Glove 6B 50 dim | 55.36% | 50.40% |
