@@ -41,6 +41,7 @@ Notice the words highlighted in brown and black. They are also deemed important 
 - [ ] Implement Glove embeddings with different dimensions.
 - [ ] Better word preprocessing.
 - [ ] Implement Relative Positional Encoding
+- [ ] See how LSTM performs
 
 ## References
 - @inproceedings{Ambartsoumian2017, <br />
