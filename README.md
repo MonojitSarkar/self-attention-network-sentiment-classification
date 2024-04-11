@@ -44,10 +44,10 @@ Notice the words highlighted in brown and black. They are also deemed important 
 
 ## To-Do
 - [x] Implement Glove and see for any improvement. Slightly better accuracy observed.
-- [ ] Implement Glove embeddings with different dimensions.
+- [x] Implement Glove embeddings with different dimensions.
 - [ ] Better word preprocessing.
 - [ ] Implement Relative Positional Encoding
-- [ ] See how LSTM performs
+- [x] See how LSTM performs
 
 ## References
 - @inproceedings{Ambartsoumian2017, <br />
