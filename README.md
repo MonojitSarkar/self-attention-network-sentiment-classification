@@ -11,9 +11,10 @@ Accuracies for different embedding trained for 20 epochs. Dropout of 0.7
 | LSTM Random Word Embedding (no dropout) | 94.10% | 84.88% |
 | LSTM Random Word Embedding (dropout in lstm cell) | 95.84% | 83.77% |
 | LSTM Random Word Embedding | 78.60% | 73.80% |
-| BiLSTM Glove 6B 50 dim | 55.36% | 50.40% |
-| LSTM Random Word Embedding | 57.58% | 62.77% |
-| BiLSTM Glove 6B 50 dim | 55.36% | 50.40% |
+| LSTM Glove 6B 50 dim | 60.81% | 64.16% |
+| LSTM Glove 6B 100 dim | 61.22% | 57.66% |
+| BiLSTM Glove 6B 50 dim | 76.72% | 81.72% |
+| BiLSTM Glove 6B 100 dim | 80.90% | 80.82% |
 | Self-attention Random Word Embedding | 81.00%  | 82.44% |
 | Self attention Glove 6B 50 dim  | 84.77%  | 82.35% |
 | Self attention Glove 6B 100 dim  | 85.31%  | 84.27% |
